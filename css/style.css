@@ -13,12 +13,24 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 607px;
 }
+
 nav{
     align-items: center;
     background-color: aquamarine;
     display: flex;
     height: 50px;
     justify-content: space-around;
+}
+section{
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+section img{
+    height: 250px;
+}
+section img:nth-child(3):hover{
+    width: 100%;
 }
